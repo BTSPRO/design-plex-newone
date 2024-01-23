@@ -1,3 +1,6 @@
-*{
-  font-family: 'Cabinet Grotesk', sans-serif;
+* {
+  font-family: "Cabinet Grotesk", sans-serif;
+}
+body {
+  background-image: url(./assets/bgcolor.svg);
 }

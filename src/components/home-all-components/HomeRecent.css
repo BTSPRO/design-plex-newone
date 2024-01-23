@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: "Cabinet Grotesk", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.worktext {
+  font-size: 35px;
+}
+.work {
+  text-align: center;
+}
+
+.figmadesign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15rem;
+}
+.figma {
+  background-color: #ffffff;
+  padding: 0.7rem;
+  border-radius: 10px;
+  margin: 9px;
+}
+
+.worktext {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.workcolor {
+  color: blue;
+}
+
+.text2 {
+  margin-left: 1rem;
+}
+
+.work img {
+  max-width: 100%;
+  height: auto;
+}
+.bottom {
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .work {
+    max-width: 100%;
+    border: none;
+  }
+
+  .text2 {
+    margin-left: 0;
+  }
+}

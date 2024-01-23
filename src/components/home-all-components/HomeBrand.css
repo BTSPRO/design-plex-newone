@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+  font-family: Cabinet Grotesk;
+}
+
+.branddiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.maindiv {
+  background-color: white;
+}
+
+.workcolor {
+  color: #007ee5;
+}
+
+.brandname {
+  font-size: 35px;
+  line-height: 45px;
+}
+.percent {
+  font-family: Cabinet Grotesk;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.project {
+  line-height: 0px;
+}
+@media (max-width: 768px) {
+  .brand-info {
+    font-size: 12px;
+    padding: 2px;
+  }
+  .brandname {
+    font-size: 22px;
+  }
+}

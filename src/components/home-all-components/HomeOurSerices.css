@@ -1,0 +1,82 @@
+.our-service {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+  padding: 1.8rem;
+}
+.primary-text {
+  color: #007ee5;
+}
+.design-section {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.card {
+  display: flex;
+  width: 1281px;
+  height: 640px;
+  border-radius: 50px;
+  border: 1px;
+  position: relative;
+  left: 41px;
+  background-color: white;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #161616 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border-image-slice: 1;
+}
+.home-card {
+  width: 345px;
+  height: 574px;
+  margin: 3.1rem;
+  border-radius: 50px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    #161616 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-image-slice: 1;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  padding: 5px 25px 0px 25px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.svgimage {
+  padding-right: 22px;
+}
+.title {
+  font-size: 37px;
+  padding: 12px 14px 1px 13px;
+  margin: 6px;
+  font-weight: 600;
+}
+.description {
+  font-size: 1.5rem;
+  line-height: 0.2rem;
+  font-weight: 500;
+}
+.order-now {
+  width: 298px;
+  height: 49px;
+  border-radius: 10px;
+  background: black;
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+}
